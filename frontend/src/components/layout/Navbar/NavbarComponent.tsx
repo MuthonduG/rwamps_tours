@@ -24,7 +24,7 @@ const NavbarComponent = () => {
       <nav className="flex flex-col md:grid md:grid-cols-3 items-center w-full px-4 md:px-6 py-4 gap-4 md:gap-0">
 
         {/* LEFT: Logo - Always top left, centered on mobile */}
-        <div className="flex items-center gap-3 md:justify-self-start w-full md:w-auto justify-center md:justify-start">
+        <div className=" flex items-center gap-3 md:justify-self-start w-full md:w-auto justify-center md:justify-start">
           <img
             src={rwamps_logo}
             alt="Rwamps Logo"
