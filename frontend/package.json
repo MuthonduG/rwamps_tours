@@ -12,16 +12,22 @@
     "tailwind:watch": "tailwindcss -i ./src/index.css -o ./dist/output.css --watch"
   },
   "dependencies": {
+    "@types/leaflet-routing-machine": "^3.2.9",
+    "leaflet": "^1.9.4",
+    "leaflet-routing-machine": "^3.2.12",
     "react": "^19.2.0",
     "react-dom": "^19.2.0",
-    "react-icons": "^5.5.0"
+    "react-icons": "^5.5.0",
+    "react-leaflet": "^5.0.0",
+    "react-leaflet-markercluster": "^5.0.0-rc.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.39.1",
     "@tailwindcss/cli": "^4.1.17",
     "@tailwindcss/postcss": "^4.1.17",
     "@tailwindcss/vite": "^4.1.17",
-    "@types/node": "^24.10.1",
+    "@types/leaflet": "^1.9.21",
+    "@types/node": "^24.10.4",
     "@types/react": "^19.2.5",
     "@types/react-dom": "^19.2.3",
     "@vitejs/plugin-react": "^5.1.1",

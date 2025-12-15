@@ -76,7 +76,7 @@ const TestimonialsComponent = () => {
         <section className="w-full flex justify-center items-center py-20 px-4 md:px-8 bg-gradient-to-b from-gray-50 to-white p-4">
             <div className="w-full max-w-6xl">
                 {/* Header Section */}
-                <div className="flex flex-col justify-center items-center gap-4 py-6">
+                <div className="flex flex-col justify-center items-center gap-4 py-6 w-full">
                     <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
                         What Our <span className="text-yellow-700">Travelers</span> Say
                     </h2>
