@@ -2,6 +2,7 @@
 import './App.css'
 import HeaderComponent from './components/layout/header/HeaderComponent'
 import NavbarComponent from './components/layout/Navbar/NavbarComponent'
+import ToursComponent from './components/layout/tours/ToursComponent'
 
 function App() {
 
@@ -9,6 +10,7 @@ function App() {
     <>
       <NavbarComponent/>
       <HeaderComponent/>
+      <ToursComponent/>
     </>
   )
 }

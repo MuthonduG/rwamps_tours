@@ -135,6 +135,51 @@ const HeaderComponent = () => {
 
         </div>
 
+        <div className="flex w-full justify-start items-center p-2">
+
+            {/* form */}
+            <form action="" className="flex justify-start items-center p-4 text-gray-700 gap-10 rounded-md shadow shadow-gray-500">
+
+                <div className="flex flex-col justify-start items-center gap-4">
+                    <label htmlFor="">Location</label>
+                    <select name="" id="" className="rounded-md p-2 px-6 bg-amber-100/5 border border-neutral-500">
+                        <option value="" className="">Abu Dhabi</option>
+                        <option value="" className="">Dubai</option>
+                        <option value="" className="">Ajman</option>
+                        <option value="" className="">Fujairah</option>
+                        <option value="" className="">Ras AI Khaimah</option> 
+                        <option value="" className="">Umm AI Quwain</option>
+                        <option value="" className="">Fujairah</option>
+                    </select>
+                </div>
+
+                <div className="flex flex-col justify-start items-center gap-4">
+                    <label htmlFor="" className="">Date</label>
+                    <input type="date" name="" id="" className="rounded-md p-2 px-6 bg-amber-100/5 border border-neutral-500"/>
+                </div>
+
+                <div className="flex flex-col justify-start items-center gap-4">
+                    <label htmlFor="" className="">Price Range</label>
+                    <select name="" id="" className="rounded-md p-2 px-6 bg-amber-100/5 border border-neutral-500">
+                       <option value="" className="">AED 1000 - 2500</option>
+                       <option value="" className="">AED 2600 - 5000</option>
+                       <option value="" className="">AED 5000 - 7500</option>
+                       <option value="" className="">AED 75000 - 10000</option>
+                       <option value="" className="">AED 10000 - 15000</option>
+                       <option value="" className="">AED 15000 - 20000</option>
+                    </select>
+                </div>
+
+                <div className="flex h-full justify-center items-center p-4">
+                    <button className="px-10 p-2 rounded-xl bg-green-800 hover:bg-green-700 transition hover:cursor-pointer text-white font-semibold border-2 border-green-700/60 shadow-md shadow-gray-500">
+                        Search Now
+                    </button>                     
+                </div>
+
+            </form>
+
+        </div>
+
     </section>
   )
 }
