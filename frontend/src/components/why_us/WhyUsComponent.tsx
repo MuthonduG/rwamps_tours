@@ -76,9 +76,9 @@ const WhyUsComponent = () => {
             <div className="absolute inset-0 bg-gradient-to-br from-green-500/20 to-blue-500/20 rounded-full blur-3xl"></div>
             
             <div className="relative w-full h-full flex justify-center items-center">
-              <div className="absolute w-[85%] h-[85%] bg-gradient-to-br from-green-600/10 to-emerald-400/10 rounded-full"></div>
+              <div className="absolute w-[85%] h-[85%] bg-gradient-to-br from-yellow-600/10 to-yellow-400/10 rounded-full"></div>
               
-              <div className="relative w-[75%] h-[75%] bg-gradient-to-br from-emerald-500/50 to-green-600/60 rounded-full shadow-2xl shadow-green-500/30 flex justify-center items-center overflow-hidden">
+              <div className="relative w-[75%] h-[75%] bg-gradient-to-br from-yellow-600/50 to-green-600/60 rounded-full shadow-2xl shadow-green-500/30 flex justify-center items-center overflow-hidden">
                 <img 
                   src={image} 
                   alt="Travel Experience" 
