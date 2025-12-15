@@ -2,7 +2,9 @@
 import './App.css'
 import HeaderComponent from './components/layout/header/HeaderComponent'
 import NavbarComponent from './components/layout/Navbar/NavbarComponent'
+import ServicesComponent from './components/layout/our_services/ServicesComponent'
 import ToursComponent from './components/layout/tours/ToursComponent'
+import WhyUsComponent from './components/why_us/WhyUsComponent'
 
 function App() {
 
@@ -11,6 +13,8 @@ function App() {
       <NavbarComponent/>
       <HeaderComponent/>
       <ToursComponent/>
+      <ServicesComponent/>
+      <WhyUsComponent/>
     </>
   )
 }

@@ -12,7 +12,7 @@ import { MdDoubleArrow } from "react-icons/md";
 
 const HeaderComponent = () => {
   return (
-    <section className="w-full flex flex-col justify-center items-center relative mt-[100px] md:mt-[120px] overflow-hidden">
+    <section className="w-full top-20 flex flex-col justify-center items-center relative mt-[100px] md:mt-[120px] overflow-hidden">
 
         <div className="w-full grid grid-cols-3 justify-center items-center">
 

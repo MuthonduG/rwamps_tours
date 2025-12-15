@@ -20,7 +20,7 @@ const navlinkList: NavLink[] = [
 
 const NavbarComponent = () => {
   return (
-    <section className="w-full">
+    <section className="w-full fixed z-50 bg-white/95">
       <nav className="flex flex-col md:grid md:grid-cols-3 items-center w-full px-4 md:px-6 py-4 gap-4 md:gap-0">
 
         {/* LEFT: Logo - Always top left, centered on mobile */}
