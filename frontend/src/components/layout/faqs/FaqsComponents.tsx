@@ -277,23 +277,23 @@ const FaqsComponent = () => {
           <div className="space-y-8 flex flex-col gap-2">
             {/* Support Card */}
             <div className="bg-gradient-to-br from-gray-900 to-gray-800 rounded-3xl p-8 text-white">
-              <div className="flex items-center gap-4 mb-6">
+              <div className="flex items-center gap-4 mb-6 py-10">
                 <div className="p-3 bg-white/10 rounded-xl backdrop-blur-sm">
                   <MdSupportAgent className="text-3xl" />
                 </div>
                 <div>
                   <h3 className="text-2xl font-bold">Need More Help?</h3>
-                  <p className="text-gray-300">Our support team is here for you</p>
+                  <p className="text-gray-300 hidden md:inline-flex">Our support team is here for you</p>
                 </div>
               </div>
               
-              <div className="space-y-4">
+              <div className="space-y-4 flex flex-col gap-4">
                 {supportOptions.map((option, index) => (
                   <div
                     key={index}
                     className="bg-white/5 backdrop-blur-sm rounded-xl p-4 hover:bg-white/10 transition-all duration-300 group"
                   >
-                    <div className="flex items-center justify-between">
+                    <div className="flex flex-col md:flex-row items-center justify-between gap-3">
                       <div className="flex items-center gap-4">
                         <div className={`p-3 rounded-lg bg-gradient-to-r ${option.color}`}>
                           {option.icon}
@@ -339,7 +339,7 @@ const FaqsComponent = () => {
         </div>
 
         {/* Bottom CTA */}
-        <div className="mt-16 text-center">
+        <div className="mt-16 text-center py-10">
           <div className="inline-flex items-center gap-4 text-gray-600">
             <span className="text-sm">Didn't find your answer?</span>
             <button className="px-6 py-3 border-2 border-green-700 text-green-700 font-bold rounded-xl hover:bg-green-700 hover:text-white transition-all duration-300">

@@ -328,7 +328,7 @@ const MappedDestinations = () => {
         </div>
 
         {/* Footer Info */}
-        <div className="mt-12 text-center py-6">
+        <div className="hidden md:inline-flex mt-12 text-center py-6">
           <div className="inline-flex items-center gap-6 text-gray-600">
             <div className="flex items-center gap-2">
               <div className="w-3 h-3 rounded-full bg-emerald-600"></div>
